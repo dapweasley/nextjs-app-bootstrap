@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/components/providers.tsx"],"sourcesContent":["'use client'\n\nimport { SessionProvider } from 'next-auth/react'\nimport { ReactNode } from 'react'\n\ninterface ProvidersProps {\n  children: ReactNode\n}\n\nexport function Providers({ children }: ProvidersProps) {\n  return (\n    <SessionProvider>\n      {children}\n    </SessionProvider>\n  )\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AASO,SAAS,UAAU,EAAE,QAAQ,EAAkB;IACpD,qBACE,6LAAC,iJAAA,CAAA,kBAAe;kBACb;;;;;;AAGP;KANgB","debugId":null}}]
+}
